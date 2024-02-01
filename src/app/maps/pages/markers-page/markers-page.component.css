@@ -15,3 +15,8 @@ button {
   bottom: 30px;
   right: 20px;
 }
+
+.marker-label {
+  color: white; /* Color del texto */
+  font-weight: bold; /* Opcional: establece el peso de la fuente a negrita */
+}
