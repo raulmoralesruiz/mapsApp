@@ -13,19 +13,22 @@ import { MarkersPageComponent } from './pages/markers-page/markers-page.componen
 import { PropertiesPageComponent } from './pages/properties-page/properties-page.component';
 import { ZoomRangePageComponent } from './pages/zoom-range-page/zoom-range-page.component';
 
+import { CounterAloneComponent } from "../alone/components/counter-alone/counter-alone.component";
+
 @NgModule({
-  declarations: [
-    MiniMapComponent,
-    SideMenuComponent,
-    MapsLayoutComponent,
-    FullScreenPageComponent,
-    MarkersPageComponent,
-    PropertiesPageComponent,
-    ZoomRangePageComponent
-  ],
-  imports: [
-    CommonModule,
-    MapsRoutingModule
-  ]
+    declarations: [
+        MiniMapComponent,
+        SideMenuComponent,
+        MapsLayoutComponent,
+        FullScreenPageComponent,
+        MarkersPageComponent,
+        PropertiesPageComponent,
+        ZoomRangePageComponent
+    ],
+    imports: [
+        CommonModule,
+        MapsRoutingModule,
+        CounterAloneComponent,
+    ]
 })
 export class MapsModule { }

@@ -15,7 +15,6 @@
       <!-- Houses -->
       <div *ngFor="let house of houses" class="col-4 mb-2">
         <div class="card">
-          <!-- <img src="..." alt="aquí viene un mapa" class="card-img-top"> -->
           <map-mini-map [lngLat]="house.lngLat" />
 
           <div class="card-body">
@@ -23,6 +22,10 @@
             <p class="card-text">{{ house.description }}</p>
           </div>
         </div>
+      </div>
+
+      <div class="col-4 mb-2">
+        <counter-alone />
       </div>
 
     </div>
